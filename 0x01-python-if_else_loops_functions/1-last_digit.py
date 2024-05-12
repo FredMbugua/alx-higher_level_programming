@@ -8,7 +8,7 @@ if (number > 0):
     elif (lastd == 0):
         print(f"Last digit of {number} is {lastd} and is 0")
     elif (lastd < 6):
-        print(f"Last digit of {number} is {lastd} and is less than 5")
+        print(f"Last digit of {number} is {lastd} and is less than 6 and not 0")
     print()
 elif (number < 0):
     lastd = -number % 10
@@ -17,5 +17,5 @@ elif (number < 0):
     elif (lastd == 0):
         print(f"Last digit of {number} is {lastd} and is 0")
     elif (lastd < 6):
-        print(f"Last digit of {number} is -{lastd} and is less than 5")
+        print(f"Last digit of {number} is -{lastd} and is less than 6 and not 0")
     print()
