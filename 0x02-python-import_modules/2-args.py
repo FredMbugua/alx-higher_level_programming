@@ -9,6 +9,6 @@ if __name__ == "__main__":
         print('{} argument:'.format(argc))
         print('{}: {}'.format(argc, argv[1]))
     elif argc > 1:
-        print('{} arguments'.format(argc))
+        print('{} arguments:'.format(argc))
         for i in range(1, num):
             print('{}: {}'.format(i, argv[i]))
