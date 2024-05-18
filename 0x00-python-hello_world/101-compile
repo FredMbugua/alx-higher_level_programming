@@ -1,10 +1,2 @@
 #!/bin/bash
-# Compile the Python file
-python3 -m compileall "$PYFILE"
-
-# Rename the compiled file
-compiled_file="${PYFILE}c"
-mv "__pycache__/${PYFILE}__main__.pyc" "$compiled_file"
-
-# Output message
-echo "Compiling $PYFILE ..."
+python3 -m compileall $PYFILE -b
