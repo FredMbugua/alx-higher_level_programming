@@ -1,3 +1,4 @@
+-- sum rating
 SELECT 
     tv_genres.name, 
     SUM(tv_show_ratings.rating) AS rating
@@ -11,3 +12,4 @@ GROUP BY
     tv_genres.name
 ORDER BY 
     rating DESC;
+
