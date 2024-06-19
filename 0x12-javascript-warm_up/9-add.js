@@ -6,7 +6,7 @@ function add (a, b) {
   return a + b;
 }
 if (isNaN(firstInt) || isNaN(secondInt)) {
-  console.log('Both arguments must be numbers');
+  console.log('NaN');
 } else {
   console.log(add(firstInt, secondInt));
 }
